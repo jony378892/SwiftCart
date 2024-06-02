@@ -25,5 +25,5 @@ import { ProductPageComponent } from './product-page/product-page.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'my-project';
+  
 }
