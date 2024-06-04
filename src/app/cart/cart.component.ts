@@ -24,4 +24,16 @@ export class CartComponent {
   shippedFromAbroad = 'Shipped By Global Sellers';
   count1 = 1;
   count2 = 1;
+  increment1(){
+    this.count1++;
+  }
+  decrement1(){
+    this.count1--;
+  }
+  increment2(){
+    this.count2++;
+  }
+  decrement2(){
+    this.count2--;
+  }
 }

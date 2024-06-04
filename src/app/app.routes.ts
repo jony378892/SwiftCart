@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { SigninComponent } from './signin/signin.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,4 +18,5 @@ export const routes: Routes = [
   { path: 'signin', component: SigninComponent },
   { path: 'cart', component: CartComponent },
   { path: 'product-page', component: ProductPageComponent },
+  { path: 'checkout', component: CheckoutComponent },
 ];
